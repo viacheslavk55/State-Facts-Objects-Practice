@@ -78,7 +78,7 @@
 			</div>
 			<div class="info-holder">
 				<p><strong>Abbreviation: </strong><span id="info-abbreviation">USA</span></p>
-				<p><strong>Capitol: </strong><span id="info-capitol">Washington, District of Columbia</span></p>
+				<p><strong>Capital: </strong><span id="info-capitol">Washington, District of Columbia</span></p>
 				<p><strong>Population: </strong><span id="info-population">320,843,000</span></p>
 				<p><strong>Statehood: </strong><span id="info-statehood">1776</span></p>
 				<p><strong>Mammal: </strong><span id="info-mammal">N/A</span></p>
@@ -89,5 +89,13 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		let stateList = document.getElementById('state-list')
+		stateList.onchange = function() {
+			let selected = this.value
+			console.log(selected)
+		}
+
+	</script>
 </body>
 </html>
